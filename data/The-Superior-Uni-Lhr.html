@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE SUPERIOR UNIVERSITY, LAHORE</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Navigation Bar Styling */
+    .navbar {
+      background-color: lightgrey;
+    }
+    .navbar-brand, .navbar-nav > li > a {
+      color: black;
+      font-size: 20px;
+    }
+
+    /* Main Container Styling */
+    .container {
+      margin-top: 20px;
+    }
+
+    /* Logo Styling */
+    .logo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid #1E90FF;
+      margin-bottom: 20px;
+    }
+
+    /* Heading Styling */
+    h1, h2 {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    /* Paragraph Styling */
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    /* Contact Info Styling */
+    .contact-info {
+      margin-top: 20px;
+    }
+    .list-group-item i {
+      margin-right: 10px;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: lightgray;
+      color: black;
+      padding: 10px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Responsive Styling */
+    @media screen and (max-width: 767px) {
+      .logo {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      h1, h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+      }
+      .contact-info {
+        margin-top: 10px;
+      }
+    }
+
+    .hostel{
+        font-weight: bolder;
+    }
+    /* Interactive Background Image Styling */
+    /*.bg-image {
+      background-image: url('./img/Ali.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.7;
+    }*/
+  </style>
+</head>
+<body>
+  <!-- Interactive Background Image --> 
+  <!--<div class="bg-image"></div> -->
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">THE SUPERIOR UNIVERSITY, LAHORE</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="AboutUs.html">About</a></li>
+          <li><a href="#">Back</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <!-- Logo -->
+        <img src="./logos/Superior-Uni-Logo.png" class="logo" alt="UNI LOGO">
+        <h1>University Details</h1>
+
+        <!-- History Section -->
+        <h2><i class="fa fa-history"></i> History</h2>
+        <p>Established: 6/16/2004</p>
+        <p>Recognized: Higher Education Commission, Pakistan</p>
+        <p>Control Type: Private</p>
+    
+        <!-- Courses Offered Section -->
+        <h2><i class="fa fa-graduation-cap"></i>Faculties</h2>
+        <ul> 
+          <li>Faculty of Business and Management Science</li>
+          <li>Faculty of Economics and Commerce</li>
+          <li>Faculty of Computer Science and Information Technology</li>
+          <li>Faculty of Social Sciences</li>
+          <li>Faculty of Arts and Design</li>
+          <li>Faculty of Pharmacy</li>
+          <li>Faculty of Medical Science</li>
+          <li>Faculty of Engineering and Technology</li>
+          <li>Faculty of Sciences</li>
+          <li>Faculty of Allied Health Sciences</li>
+          <li>Faculty of Arts and Humantites</li>
+          <li>Faculty of Law</li>
+          <li>Faculty of Agriculture and Veterinary Sciences</li>
+          <li>Faculty of Associate Degree Programs</li>
+          
+        </ul>
+        
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Business and Management Science</h2>
+        <ul> 
+          <li>BBA (Hons.)</li>
+          <li>BS Aviation Management</li>
+          <li>BS Hospitality & Tourism Management</li>
+          <li>BS Healthcare Management</li>
+          <li>BS Construction and Real Estate Management</li>
+          <li>BS Business Intelligence</li>
+          <li>BS Culinary Arts and Management</li>
+          <li>M.Phil Business Administration</li>
+          <li>MS/M.Phil Quality Management</li>
+          <li>MS/M.Phil Industrial Management</li>
+          <li>MS/M.Phil Human Resource Management</li>
+          <li>MS/ M.Phil Environment, Health and Safety Management</li>
+          <li>M.S Project Management</li>
+          <li> M.S Engineering Management</li>
+          <li>M.S Construction & Engineering Management</li>
+          <li>MBA 1.5 Years (For Business Graduates)</li>
+          <li>MBA 2.5 Years (For Non-Business Graduates)</li>
+          <li>Ph.D Business Administration</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Economics and Commerce</h2>
+        <ul>
+          <li>BS E-Commerce</li>
+          <li>BS Commerce</li>
+          <li>BS Accounting & Finance</li>
+          <li>BS Economics with Data Science</li>
+          <li>BS Islamic Banking & Finance</li>
+          <li>Associate Degree in Accounting & Finance</li>
+          <li>MS Accounting and Finance</li>
+          <li>M.Phil Commerce & Finance</li>
+          <li>M.Phil Economics</li>
+          <li>Ph.D. Commerce</li>
+          <li>Ph.D. Economics</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Computer Science and Information Technology</h2>
+        <ul> 
+          <li>BS Internet of Things</li>
+          <li>BS Gaming & Multimedia</li>
+          <li>BS Robotics</li>
+          <li>BS Cyber Security</li>
+          <li>Bs Artificial Intelligence</li>
+          <li>BS Data Science</li>
+          <li>BS Software Engineering</li>
+          <li>BS Information Technology</li>
+          <li>BS Computer Science</li>
+          <li>MS Software Project Management</li>
+          <li>MS Data Science</li>
+          <li>MS Information Security</li>
+          <li>MS Software Engineering</li>
+          <li>MS Information Technology</li>
+          <li>MS Computer Science</li>
+          <li>Ph.D Computer Science</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Social Sciences</h2>
+        <ul> 
+          <li>BS Digital Media and Broadcast Journalism</li>
+          <li>BS Clinical Psychology</li>
+          <li>BS International Relations</li>
+          <li>BS Criminolgy</li>
+          <li>BS Public Policy & Governance (Plus CSS/PMS)</li>
+          <li>BS Mass Communication Management</li>
+          <li>PhD in Communication Studies</li>
+          <li>M.Phil. Mass Communication Management</li>
+          <li>MS Political Science</li>
+          <li>MS International Relations</li>
+          <li>MS Clinical Psychology</li>
+          <li>MS Sociology</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Arts and Design</h2>
+        <ul> 
+          <li>Bachelor of Architecture</li>
+          <li>BS Fashion Design</li>
+          <li>BS Fashion Marketing & Merchandising</li>
+          <li>BS Product Design</li>
+          <li>BS Graphic Design</li>
+          <li>BS Home Economics</li>
+          <li>Bachelor of Interior Design</li>
+          <li>Bachelor of Textile Design</li>
+          <li>Bachelor of Fine Arts</li>
+          <li>Bachelor of Building Design & Construction</li>
+          <li>MS Art & Design</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Pharmacy</h2>
+        <ul> 
+          <li>Doctor of Pharmacy (Pharm D)</li>
+          <li>Ph.D Pharmacology</li>
+          <li>M.Phil Pharmacology</li>
+          <li>M.Phil Pharmaceutics</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Medical Science</h2>
+        <ul> 
+          <li>Bachelor of Eastern Medicine & Surgery (BEMS)</li>
+          <li>Bachelor in Dental Surgery</li>
+          <li>M.Phil Basic Medical Sciences</li>
+          <li>MBBS</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Engineering and Technology</h2>
+        <ul> 
+          <li>BS Avionics Engineering</li>
+          <li>BSc Civil Engineering</li>
+          <li>BS Electrical Engineering</li>
+          <li>BSc Mechanical Engineering</li>
+          <li>BSc Aircraft Maintenance & Management</li>
+          <li>BSc Aviation Engineering Technology</li>
+          <li>BSc Biomedical Engineering Technology</li>
+          <li>BSc Electrical System</li>
+          <li>BSc Information Engineering Technology</li>
+          <li>BSc Civil Engineering Technology</li>
+          <li>BSc Electrical Engineering Technology</li>
+          <li>BSc Mechanical Engineering Technology</li>
+          <li>MS Civil Engineering</li>
+          <li>M.S. Electrical Engineering</li>
+          <li>MS Mechanical Engineering</li>
+          <li>Ph.D Electrical Engineering</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Sciences</h2>
+        <ul> 
+          <li>BS Microbiology</li>
+          <li>BS Biotechnology</li>
+          <li>BS Biochemistry</li>
+          <li>BS Chemistry</li>
+          <li>BS Forensic Science</li>
+          <li>BS Physics</li>
+          <li>BS Mathematics</li>
+          <li>PhD Biochemistry</li>
+          <li>MS Zoology</li>
+          <li>MS Microbiology</li>
+          <li>MS Biochemistry</li>
+          <li>MS Biotechnology</li>
+          <li>MPhil Mathematics</li>
+          <li>M.Phil Statistics</li>
+          <li>M.Phil Physics</li>
+          <li>M.Phil Chemistry</li>
+          <li>MS Botany</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Allied Health Scineces</h2>
+        <ul> 
+          <li></li>
+          <li>Doctor of Physical Therapy</li>
+          <li>BS Medical Laboratory Sciences</li>
+          <li>BS Medical Imaging Technology</li>
+          <li>BS Human Nutrition and Dietetics</li>
+          <li>BS Anesthesia Technology</li>
+          <li>BS Operation Theater Technology</li>
+          <li>BS Public Health</li>
+          <li>BS Optometry</li>
+          <li>BS Dental Technology</li>
+          <li>BS Speech Language Pathology</li>
+          <li>BS Sports Sciences and Physical Education</li>
+          <li>BS Dental Hygiene</li>
+          <li>BS Respiratory Therapy</li>
+          <li>BS Aesthetic and Cosmetology</li>
+          <li>BS Renal and Dialysis Technology</li>
+          <li>BS Audiology</li>
+          <li>BS Occupational Therapy</li>
+          <li>BS Cardiac Perfusion</li>
+          <li>Bachelors of Science in Nursing (Post RN)</li>
+          <li>BS Nursing Generic - 4 Years</li>
+          <li>Ph.D Food Science and Technology</li>
+          <li>MS Allied Health Sciences</li>
+          <li>MS Rehabilitation Sciences</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Arts and Humantites</h2>
+        <ul> 
+          <li>BS Education</li>
+          <li>BS English (Language & Literature)</li>
+          <li>PhD Education</li>
+          <li>MS Linguistics</li>
+          <li>MS Urdu</li>
+          <li>M.Phil. Library & Information Management</li>
+          <li>M.Phil. Education, Leadership & Management</li>
+          <li>M.Phil. Education</li>
+          <li>MS Islamic Studies</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Law</h2>
+        <ul> 
+          <li>LL.B.</li>
+          <li>LL.M.</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Agriculture and Veterinary Sciences</h2>
+        <ul> 
+          <li>BS Agriculture (Horticulture)</li>
+          <li>BS Agriculture( Plant Breeding and Genetics)</li>
+        </ul>
+        <h2><i class="fa fa-graduation-cap"></i>Faculty of Associate Degree Programs</h2>
+        <ul>
+          <li>Associate Degree in Business Administration</li>
+          <li>Associate Degree in Accounting & Finance</li>
+          <li>Associate Degree in Computer Science</li>
+          <li>Associate Degree in Web Design and Development</li>
+          <li>Associate Degree in Cyber Security</li>
+          <li>Associate Degree in Robotics and Artificial Intelligence</li>
+        </ul>
+        
+        <h2><i class="fa fa-graduation-cap"></i>ACADEMICS</h2>
+        <p class="hostel"><a href="https://www.superior.edu.pk/faculties/">CLICK HERE FOR INFORMATION</a></p>
+        <h2><i class="fa fa-graduation-cap"></i>FEE STRUCTURE</h2>
+        <p class="hostel">N/A</p>
+
+        <!-- Location and Transportation Section -->
+        <h2><i class="fa fa-map-marker"></i> Location</h2>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.905359109887!2d74.23367969691748!3d31.333986708167593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919aadc70075215%3A0xf14fa2ec4eba8377!2sSuperior%20University!5e0!3m2!1sen!2s!4v1687387828560!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <h2><i class="fa fa-map-marker"></i> Nearby Hostels</h2>
+        <p class="hostel">Rajpoot hostal</p>
+        <p>PRICE : N/A</p>
+        <p>(NOTE: PRICES MAY VARY ACCORDING TO THE DATES KINDLY VISIT GIVEN LINKS AND CONTACT NUMBERS)</p>
+        <p>ADDRESS : 17km Raiwind Rd, Kot Araian, Lahore, Punjab, Pakistan</p>
+        <p>SITE: N/A</p>
+        <p>Contact : 03334392875</p>
+        <p class="hostel">LOCATION</p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.905355784429!2d74.2358683!3d31.3339868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919abdd9004e553%3A0xae201f03ad0bb98!2sRajpoot%20hostal!5e0!3m2!1sen!2s!4v1687387813815!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <p class="hostel">Superior University Girls Hostel</p>
+        <p>PRICE : N/A</p>
+        <p>(NOTE: PRICES MAY VARY ACCORDING TO THE DATES KINDLY VISIT GIVEN LINKS AND CONTACT NUMBERS)</p>
+        <p>ADDRESS : Superior University, Kot Araian, Lahore, Punjab, Pakistan</p>
+        <p>SITE: http://www.superior.edu.pk/</p>
+        <p>Contact : 03645304444</p>
+        <p class="hostel">LOCATION</p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.916310145848!2d74.23445217311377!3d31.333684294335093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919aadc1a97d1c1%3A0xab03f9fb2bd02042!2sSuperior%20University%20Girls%20Hostel!5e0!3m2!1sen!2s!4v1687387891497!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <p class="hostel">Ladla Boys Hostel</p>
+        <p>PRICE : N/A</p>
+        <p>(NOTE: PRICES MAY VARY ACCORDING TO THE DATES KINDLY VISIT GIVEN LINKS AND CONTACT NUMBERS)</p>
+        <p>ADDRESS : 86PP+8QF, Kot Araian, Lahore, Punjab, Pakistan</p>
+        <p>SITE: N/A</p>
+        <p>Contact : 03007733601</p>
+        <p class="hostel">LOCATION</p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.916310145848!2d74.23445217311377!3d31.333684294335093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919aadc8d2beee1%3A0x6fe8c102bbe08875!2sLadla%20Boys%20Hostel!5e0!3m2!1sen!2s!4v1687387927884!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <h2><i class="fa fa-map-marker"></i> PUBLIC TRANSPORTATION</h2>
+        <p class="hostel">Adda Plot Bus Stop</p>
+        <p class="hostel">LCPS Bus Stop</p>
+        <p class="hostel">Pajiyan Bus Stop</p>
+        <p>STATION LOCATIONS</p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54509.29843399336!2d74.19939777910155!3d31.36363830000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919ab99af0997a5%3A0x67fbfd3d17ddb8ae!2sAdda%20Plot%20Bus%20Stop!5e0!3m2!1sen!2s!4v1687387986035!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54539.880418188164!2d74.18957947910157!3d31.310860700000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919ab31706440bf%3A0x1365f41df3b28b69!2sLCPS%20Bus%20Stop!5e0!3m2!1sen!2s!4v1687388003888!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54546.23933874011!2d74.18943997910155!3d31.299876599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919ab497a1ecdcf%3A0xcd3dab34f38d5e13!2sPajiyan%20Bus%20Stop!5e0!3m2!1sen!2s!4v1687388021967!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <!-- Ranking Section -->
+        <h2><i class="fa fa-trophy"></i> Ranking</h2>
+        <p>Country Rank: 119 – webometrics.info</p>
+        <p>Rank: 9884 – webometrics.info</p>
+    
+        <!-- Contact Info Section -->
+        <div class="contact-info">
+          <h2><i class="fa fa-phone"></i> Contact Info</h2>
+          <ul class="list-group">
+            <li class="list-group-item"><i class="fa fa-envelope"></i> <a href="http://www.superior.edu.pk/"></a>http://www.superior.edu.pk/</li>
+            <li class="list-group-item"><i class="fa fa-phone"></i> +92-42-35330361-3, +92-42 381 03777</li>
+            <li class="list-group-item"><i class="fa fa-map-marker"></i> 17 K.M Raiwind Road, Lahore.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+    <p>&copy; UNIVERSITY FINDER</p>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+    
